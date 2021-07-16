@@ -1,0 +1,21 @@
+{
+    "name": "P4LACHOUETTEAGENCE",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass assets/scss/index.scss assets/dev.css -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wea2ne/NnenaOsarokio_4_24062021.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "browserslist": "",
+    "bugs": {
+      "url": "https://github.com/wea2ne/NnenaOsarokio_4_24062021/issues"
+    },
+    "homepage": "https://github.com/wea2ne/NnenaOsarokio_4_24062021#readme"
+  }

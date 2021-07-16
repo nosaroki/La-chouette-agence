@@ -2082,10 +2082,16 @@ pre code {
 .col-xs-8,
 .col-xs-9 {
     float: left
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
 .col-xs-12 {
     width: 100%
+
 }
 
 .col-xs-11 {
