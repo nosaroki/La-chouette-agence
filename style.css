@@ -91,9 +91,9 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/banniere.webp");
     /* background-size: 280px 280px; */
     background-attachment: fixed;
+    background-image: url(img/texture-paper.webp);
 }
 
 
@@ -136,6 +136,8 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+    width: 48px;
+    height: 48px;
 }
 
 .d-bloc .a-btn:hover,
@@ -790,8 +792,8 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
+.bg-banniere {
+    background: url("img/image-de-presentation.webp");
 }
 
 .tc-white {
@@ -1059,6 +1061,10 @@ blockquote {
 .bloc-bg-texture-c{
     background: url("img/texture-paper.webp");
     background-color: #f3976c;
+}
+
+.bg-presentation{
+    background-image: url(img/image-de-presentation.webp);
 }
 
 
