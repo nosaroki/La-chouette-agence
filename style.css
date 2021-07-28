@@ -1133,24 +1133,16 @@ label {
 
   .portfolio-row{
       display: grid;
-      width: max-content;
   }
 
-  .col-sm-62{
-    width: 58%;
-    margin-bottom: 2em;
-}
   .col-sm-6{
     width: 62%;
     margin-bottom: 2em;
+    justify-self: center;
 }
 
 .white{
     margin-bottom: 2em;
-}
-
-.portfolio-thumb{
-    margin-left: 2em;
 }
 
 #bloc-7 > p{
