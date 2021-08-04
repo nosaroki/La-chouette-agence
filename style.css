@@ -1,3 +1,9 @@
+@font-face {
+  font-family: kiwi;
+  src: url("/fonts/kiwi.woff2");
+  font-display: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -806,6 +812,7 @@ h4 {
 
 .tc-white {
   color: #fff !important;
+  text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -920,7 +927,6 @@ h4 {
   }
   .navbar .nav {
     padding-top: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: right;
   }
   .navbar.row {
@@ -1057,10 +1063,9 @@ blockquote {
   border-left: 5px solid #eee;
 }
 
-.bloc-bg-texture-c {
+/* .bloc-bg-texture-c {
   background: url("img/texture-paper.webp");
-  background-color: #f3976c;
-}
+} */
 
 .bg-presentation {
   background-image: url(img/image-de-presentation.webp);
@@ -1072,18 +1077,11 @@ label {
   margin-bottom: 1em;
 }
 
-/* .bloc-lg > .tight-width-space {
-    display: flex;
-} */
-.col-sm-62 > a > img {
-    height: 270px;
-    width: 270px;
+a:focus {
+  outline: 2px solid #F3976C!important;
 }
-
-.col-sm-62{
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 50%;
+button:focus {
+  outline: 2px solid #F3976C!important;
 }
 
 @media (max-width: 400px) {
@@ -1105,8 +1103,11 @@ label {
 
   .navbar .nav{
     padding-top: 0;
-    /* border-top: 1px solid rgba(0, 0, 0, .2); */
-    float: right;
+    border-top: 1px solid rgba(0, 0, 0, .2); 
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    float: left;
+    width: 105%;
+    background-color: #f59d73;
   }
 
   .nav>li{
@@ -1136,8 +1137,7 @@ label {
   }
 
   .col-sm-6{
-    width: 62%;
-    margin-bottom: 2em;
+    width: 95%;
     justify-self: center;
 }
 
@@ -1150,16 +1150,37 @@ label {
     margin-top: 80px;
 }
 
-.col-sm-67{
-    width: 100%;
-}
-
-.col-sm-69{
-    width: 100%;
-    padding: 0 0.5em;
-}
-
 .btn-atomic-tangerine{
     width: 100%;
+}
+
+.hero-bloc-text {
+  font-size: 35px;
+}
+
+#bloc-1-hero h1 {
+  font-size: 25px;
+}
+
+/* .nav > li{
+margin-top: 0;
+border-bottom: 1px solid rgba(0, 0, 0, .1);
+background: rgba(0, 0, 0, .05);
+text-align: left;
+padding-left: 15px;
+width: 100%;
+} */
+
+.nacbar .nav{
+background-color: #c27956;
+}
+
+.tc-white{
+  font-size: 20px;
+  margin-top: 2em;
+}
+
+.col-sm-12{
+  margin-bottom: 2em;
 }
 }
