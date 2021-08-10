@@ -807,6 +807,7 @@ h4 {
 
 .bg-banniere {
   background: url("img/banniere.webp");
+  width: 100%;
 }
 
 .tc-white {
